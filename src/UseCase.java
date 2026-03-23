@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class UseCase10Booking {
+public class UseCase {
 
     static class Booking {
         String id, type, room;
