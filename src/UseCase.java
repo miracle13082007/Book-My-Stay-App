@@ -32,7 +32,7 @@ class HotelSystem {
         }
     }
 
-    // 🔒 Synchronized booking method (CRITICAL SECTION)
+ 
     public synchronized void bookRoom(String guestName) {
 
         if (availableRooms.isEmpty()) {
