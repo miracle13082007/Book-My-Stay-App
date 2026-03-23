@@ -92,7 +92,7 @@ class HotelSystem {
         System.out.println("Available Rooms: " + availableRooms);
     }
 
-    // ✅ UC12: SAVE DATA (Persistence)
+ 
     public void saveData() {
         try (ObjectOutputStream oos =
                      new ObjectOutputStream(new FileOutputStream(FILE_NAME))) {
@@ -108,7 +108,7 @@ class HotelSystem {
         }
     }
 
-    // ✅ UC12: LOAD DATA (Recovery)
+ 
     public void loadData() {
         try (ObjectInputStream ois =
                      new ObjectInputStream(new FileInputStream(FILE_NAME))) {
